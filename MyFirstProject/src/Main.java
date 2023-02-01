@@ -1,31 +1,44 @@
 public class Main {
     public static void main(String[] args) {
+        
+        String x = "water";
+        String y = "Kool-Aid";
+        // x=y;
+        // y=x;
+        String temp;
+        temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println("x: "+x);
+        System.out.println("y: "+y);
         // int x; //declaration
         
         // x = 123; // assignment
 
         // int x = 123; // initialization
 
-        long x = 123456789987456L;
+        // long x = 123456789987456L;
 
-        System.out.println(x);
-        System.out.println("My number is: "+x);
+        // System.out.println(x);
+        // System.out.println("My number is: "+x);
 
         // float y = 3.14f;
 
-        double y = 3.14;
-        System.out.println(y);
+        // double y = 3.14;
+        // System.out.println(y);
 
-        boolean z = true;
-        System.out.println(z);
+        // boolean z = true;
+        // System.out.println(z);
 
-        char symbol = '@';
-        System.out.println(symbol);
+        // char symbol = '@';
+        // System.out.println(symbol);
 
         // String name = 'Lsia'; // must be double quoutes
-        String name = "Lisa";
-        System.out.println(name);
+        // String name = "Lisa";
+        // System.out.println(name);
 
+        
         
         
     }
