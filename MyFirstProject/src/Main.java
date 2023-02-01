@@ -2,9 +2,12 @@
 public class Main {
 
     public static void main(String[] args) {
+
+        RandomNumbers randomNumbers = new RandomNumbers();
+        randomNumbers.randomnumbers();
         
-        Hypotenuse hypotenuse = new Hypotenuse();
-        hypotenuse.hypotenuse();
+        // Hypotenuse hypotenuse = new Hypotenuse();
+        // hypotenuse.hypotenuse();
 
         // MathClass math = new MathClass();
         // math.math();
