@@ -2,9 +2,15 @@
 public class Main {
 
     public static void main(String[] args) {
+        
+        Hypotenuse hypotenuse = new Hypotenuse();
+        hypotenuse.hypotenuse();
 
-        GUI gui = new GUI();
-        gui.gui();
+        // MathClass math = new MathClass();
+        // math.math();
+
+        // GUI gui = new GUI();
+        // gui.gui();
 
         // Expressions expressions = new Expressions();
         // expressions.expressions();
