@@ -1,45 +1,24 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         
-        String x = "water";
-        String y = "Kool-Aid";
-        // x=y;
-        // y=x;
-        String temp;
-        temp = x;
-        x = y;
-        y = temp;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("x: "+x);
-        System.out.println("y: "+y);
-        // int x; //declaration
-        
-        // x = 123; // assignment
+        System.out.println("What is your name? ");
+        String name = scanner.nextLine();
 
-        // int x = 123; // initialization
+        System.out.println("How old are you? ");
+        int age = scanner.nextInt();
 
-        // long x = 123456789987456L;
+        scanner.nextLine();
 
-        // System.out.println(x);
-        // System.out.println("My number is: "+x);
+        System.out.println("What is your favorite food?");
+        String food = scanner.nextLine();
 
-        // float y = 3.14f;
-
-        // double y = 3.14;
-        // System.out.println(y);
-
-        // boolean z = true;
-        // System.out.println(z);
-
-        // char symbol = '@';
-        // System.out.println(symbol);
-
-        // String name = 'Lsia'; // must be double quoutes
-        // String name = "Lisa";
-        // System.out.println(name);
-
-        
-        
+        System.out.println("Hello "+name+" !");
+        System.out.println("You are "+age+" years old");
+        System.out.println("You like "+food);
         
     }
 }
