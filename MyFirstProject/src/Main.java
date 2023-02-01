@@ -1,24 +1,19 @@
-import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("What is your name? ");
-        String name = scanner.nextLine();
+        Expressions expressions = new Expressions();
+        expressions.expressions();
 
-        System.out.println("How old are you? ");
-        int age = scanner.nextInt();
+        // Userinput userinput = new Userinput();
+        // userinput.userinput();
 
-        scanner.nextLine();
+        // SwaptwoVariables swaptwoVariables = new SwaptwoVariables();
+        // swaptwoVariables.swaptwoVariables();
 
-        System.out.println("What is your favorite food?");
-        String food = scanner.nextLine();
+        // Variables variables = new Variables();
+        // variables.variables(); 
 
-        System.out.println("Hello "+name+" !");
-        System.out.println("You are "+age+" years old");
-        System.out.println("You like "+food);
-        
     }
 }
