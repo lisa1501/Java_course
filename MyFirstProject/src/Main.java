@@ -3,8 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Expressions expressions = new Expressions();
-        expressions.expressions();
+        GUI gui = new GUI();
+        gui.gui();
+
+        // Expressions expressions = new Expressions();
+        // expressions.expressions();
 
         // Userinput userinput = new Userinput();
         // userinput.userinput();
