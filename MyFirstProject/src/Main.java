@@ -2,8 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Array array = new Array();
-        array.array();
+        TwoDArrays twoDarrays = new TwoDArrays();
+        twoDarrays.twoDarrays();
+
+        // Array array = new Array();
+        // array.array();
 
         // Nestedloop nestedloop = new Nestedloop();
         // nestedloop.nestedloop();
