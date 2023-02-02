@@ -2,9 +2,12 @@
 public class Main {
 
     public static void main(String[] args) {
+        
+        Switches switches = new Switches();
+        switches.switches();
 
-        Condition condition = new Condition();
-        condition.condition();
+        // Condition condition = new Condition();
+        // condition.condition();
 
         // RandomNumbers randomNumbers = new RandomNumbers();
         // randomNumbers.randomnumbers();
