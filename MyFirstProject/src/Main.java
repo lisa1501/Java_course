@@ -3,8 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        RandomNumbers randomNumbers = new RandomNumbers();
-        randomNumbers.randomnumbers();
+        Condition condition = new Condition();
+        condition.condition();
+
+        // RandomNumbers randomNumbers = new RandomNumbers();
+        // randomNumbers.randomnumbers();
         
         // Hypotenuse hypotenuse = new Hypotenuse();
         // hypotenuse.hypotenuse();
