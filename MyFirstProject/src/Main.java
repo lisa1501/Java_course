@@ -2,8 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TwoDArrays twoDarrays = new TwoDArrays();
-        twoDarrays.twoDarrays();
+        Stringmethod stringmethod = new Stringmethod();
+        stringmethod.stringmethod();
+
+        // TwoDArrays twoDarrays = new TwoDArrays();
+        // twoDarrays.twoDarrays();
 
         // Array array = new Array();
         // array.array();
