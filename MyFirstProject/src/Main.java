@@ -2,9 +2,12 @@
 public class Main {
 
     public static void main(String[] args) {
+
+        Logicaloperator logicaloperator = new Logicaloperator();
+        logicaloperator.logicaloperator();
         
-        Switches switches = new Switches();
-        switches.switches();
+        // Switches switches = new Switches();
+        // switches.switches();
 
         // Condition condition = new Condition();
         // condition.condition();
