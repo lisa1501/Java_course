@@ -3,8 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Logicaloperator logicaloperator = new Logicaloperator();
-        logicaloperator.logicaloperator();
+        Whileloop whileloop = new Whileloop();
+        whileloop.whileloop();
+
+        // Logicaloperator logicaloperator = new Logicaloperator();
+        // logicaloperator.logicaloperator();
         
         // Switches switches = new Switches();
         // switches.switches();
