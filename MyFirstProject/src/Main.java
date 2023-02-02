@@ -2,8 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Stringmethod stringmethod = new Stringmethod();
-        stringmethod.stringmethod();
+        Wrapper wrapper = new Wrapper();
+        wrapper.wrapper();
+
+        // Stringmethod stringmethod = new Stringmethod();
+        // stringmethod.stringmethod();
 
         // TwoDArrays twoDarrays = new TwoDArrays();
         // twoDarrays.twoDarrays();
