@@ -3,8 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Forloop forloop = new Forloop();
-        forloop.forloop();
+        Nestedloop nestedloop = new Nestedloop();
+        nestedloop.nestedloop();
+
+        // Forloop forloop = new Forloop();
+        // forloop.forloop();
 
         // Whileloop whileloop = new Whileloop();
         // whileloop.whileloop();
