@@ -2,8 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Wrapper wrapper = new Wrapper();
-        wrapper.wrapper();
+        Arraylist arraylist = new Arraylist();
+        arraylist.arraylist();
+
+        // Wrapper wrapper = new Wrapper();
+        // wrapper.wrapper();
 
         // Stringmethod stringmethod = new Stringmethod();
         // stringmethod.stringmethod();
