@@ -1,8 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        Overload overload = new Overload();
-        overload.add(1,2);
+
+
+        Printf printf = new Printf();
+        printf.printf();
+        // Overload overload = new Overload();
+        // overload.add(1,2);
 
         // Foreachloop foreachloop = new Foreachloop();
         // foreachloop.foreachloop();
