@@ -1,14 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
+        // local = diclared inside a method visible only to that method
+        // global = declared outside a method, but within a class visible to all parts of a class
+        DiceRoller diceRoller = new DiceRoller();
         // construntor = special method that is called when an object
         //                  is instantianted (created)
 
-        Human human1 = new Human("Lisa",21,165);
-        Human human2 = new Human("Heidi",20,155);
+        // Human human1 = new Human("Lisa",21,165);
+        // Human human2 = new Human("Heidi",20,155);
         
-        human1.eat();
-        human2.drink();
+        // human1.eat();
+        // human2.drink();
 
         // System.out.println(human1.name);
         // System.out.println(human2.name);
