@@ -1,12 +1,27 @@
 public class Main {
     public static void main(String[] args) {
+
+        // inheritance = the process where one class acquires,
+        //               the attributes and methods of another.
+        Car car = new Car();
+
+        car.go();
+
+        Bicrycle bike = new Bicrycle();
+
+        bike.stop();
+
+        System.out.println(car.doors);
+        System.out.println(bike.pedals);
+
+
         // static = modifier. A single copy of a variable/method is created and shared.
         //          The class "owns" the static member.
-        Friend friend1 = new Friend("Roberto");
-        Friend friend2 = new Friend("Lisa");
+        // Friend friend1 = new Friend("Roberto");
+        // Friend friend2 = new Friend("Lisa");
         
-        System.out.println(friend1.numberofFriends);
-        Friend.displayFriends();
+        // System.out.println(friend1.numberofFriends);
+        // Friend.displayFriends();
 
 
         

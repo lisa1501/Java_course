@@ -1,10 +1,20 @@
-public class Car {
+public class Car extends Vehicle{
 
-    String name;
+    int wheels = 4;
+    int doors = 4;
 
-    Car(String name){
-        this.name = name;
-    }
+
+}
+
+
+
+// public class Car {
+
+//     String name;
+
+//     Car(String name){
+//         this.name = name;
+//     }
 
 
     // String make = "Chevrolet";
@@ -27,4 +37,4 @@ public class Car {
 
     // }
     
-}
+// }
