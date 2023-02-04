@@ -5,6 +5,8 @@ public class C {
 
     public String piblicMessage = "This is public";
     protected String protectedMessage = "This is protected";
-    String defaultMessage = "This is the default";
+            String defaultMessage = "This is the default";
+
+    private String privateMessage = "This is private";
 
 }
