@@ -1,12 +1,21 @@
 public class Main {
     public static void main(String[] args) {
+        // static = modifier. A single copy of a variable/method is created and shared.
+        //          The class "owns" the static member.
+        Friend friend1 = new Friend("Roberto");
+        Friend friend2 = new Friend("Lisa");
+        
+        System.out.println(friend1.numberofFriends);
+        Friend.displayFriends();
 
-        Garage garage = new Garage();
 
-        Car car1 = new Car("BMW");
-        Car car2 = new Car("Tesla");
-        garage.park(car1);
-        garage.park(car2);
+        
+        // Garage garage = new Garage();
+
+        // Car car1 = new Car("BMW");
+        // Car car2 = new Car("Tesla");
+        // garage.park(car1);
+        // garage.park(car2);
 
         // int[] numbers = new int[3];
         // char[] characters = new char[4];
