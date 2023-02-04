@@ -1,18 +1,25 @@
 public class Main {
     public static void main(String[] args) {
 
+        // method overriding = Declaring a method in sub class,
+        //                      which is already present in parent class.
+        //                      done so that a child class can give ist own implementation.
+        Animal animal = new Animal();
+        Dog dog = new Dog();
+        dog.speek();
+        animal.speek();
         // inheritance = the process where one class acquires,
         //               the attributes and methods of another.
-        Car car = new Car();
+        // Car car = new Car();
 
-        car.go();
+        // car.go();
 
-        Bicrycle bike = new Bicrycle();
+        // Bicrycle bike = new Bicrycle();
 
-        bike.stop();
+        // bike.stop();
 
-        System.out.println(car.doors);
-        System.out.println(bike.pedals);
+        // System.out.println(car.doors);
+        // System.out.println(bike.pedals);
 
 
         // static = modifier. A single copy of a variable/method is created and shared.
